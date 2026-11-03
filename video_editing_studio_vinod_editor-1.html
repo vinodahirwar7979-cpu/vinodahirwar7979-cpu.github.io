@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080711">
+<meta name="description" content="Video Editing Studio by Vinod Editor. Professional reels, YouTube, cinematic editing and browser video tools.">
+<title>Video Editing Studio | Vinod Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080711;--panel:#111020;--panel2:#17152a;--line:rgba(255,255,255,.11);--muted:#a6a3b8;--white:#fff;--purple:#9b5cff;--blue:#21d4fd;--green:#25d366;--grad:linear-gradient(110deg,#9b5cff,#21d4fd);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 15% 15%,rgba(155,92,255,.16),transparent 35%),radial-gradient(ellipse at 90% 35%,rgba(33,212,253,.10),transparent 32%),var(--bg);color:var(--white);font-family:Outfit,system-ui,sans-serif;overflow-x:hidden}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}button{cursor:pointer}.container{width:min(1160px,92%);margin:auto}.muted{color:var(--muted)}.gradient{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}.eyebrow{display:inline-flex;gap:8px;align-items:center;color:#c9b4ff;border:1px solid rgba(155,92,255,.35);background:rgba(155,92,255,.09);padding:8px 13px;border-radius:99px;font-size:.82rem}.section{padding:92px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 42px}.section-head h2{font-size:clamp(2rem,5vw,3.2rem);margin:14px 0}.section-head p{color:var(--muted);line-height:1.7}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 21px;border:1px solid transparent;border-radius:999px;font-weight:700;transition:.25s;min-height:46px}.btn:hover{transform:translateY(-3px)}.btn-primary{background:var(--grad);color:#fff;box-shadow:0 10px 35px rgba(133,91,255,.23)}.btn-ghost{border-color:var(--line);background:rgba(255,255,255,.04);color:#fff}.btn-small{padding:9px 14px;min-height:38px;font-size:.9rem}.btn-danger{background:#7e2437;color:white}.topbar{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(8,7,17,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}nav{height:76px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:1.12rem;font-weight:900;letter-spacing:.03em}.brand span{color:var(--blue)}.navlinks{display:flex;align-items:center;gap:25px;color:#ddd9ec;font-size:.94rem}.navlinks a:hover{color:var(--blue)}.nav-actions{display:flex;align-items:center;gap:10px}.menu-btn{display:none;background:transparent;border:1px solid var(--line);color:white;border-radius:12px;padding:9px 12px;font-size:1.2rem}.hero{min-height:740px;padding:150px 0 90px;display:grid;grid-template-columns:1.1fr .9fr;align-items:center;gap:40px;position:relative}.hero h1{font-size:clamp(2.8rem,6.5vw,5.7rem);line-height:.99;letter-spacing:-.055em;margin:20px 0}.hero-copy p{font-size:1.08rem;color:var(--muted);line-height:1.8;max-width:600px}.hero-buttons{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.hero-note{margin-top:24px;color:#aaa5bd;font-size:.88rem}.hero-visual{position:relative;min-height:430px;display:grid;place-items:center}.orb{position:absolute;width:330px;height:330px;border-radius:50%;background:linear-gradient(135deg,rgba(155,92,255,.75),rgba(33,212,253,.55));filter:blur(70px);opacity:.42;animation:float 7s ease-in-out infinite}.editor-card{position:relative;width:min(100%,470px);padding:17px;border:1px solid rgba(255,255,255,.18);background:linear-gradient(145deg,rgba(255,255,255,.12),rgba(255,255,255,.035));border-radius:26px;box-shadow:0 35px 90px rgba(0,0,0,.45);transform:perspective(1000px) rotateY(-8deg) rotateX(4deg)}.fake-window{height:250px;border-radius:17px;background:linear-gradient(145deg,#201b3b,#0e1223);display:grid;place-items:center;overflow:hidden;position:relative}.fake-window:before,.fake-window:after{content:"";position:absolute;border-radius:50%;filter:blur(2px)}.fake-window:before{width:180px;height:180px;background:rgba(155,92,255,.45);left:-40px;top:-30px}.fake-window:after{width:160px;height:160px;background:rgba(33,212,253,.35);right:-20px;bottom:-40px}.playmark{z-index:1;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.18);border:1px solid rgba(255,255,255,.35);font-size:1.7rem;backdrop-filter:blur(10px)}.fake-timeline{display:flex;gap:8px;margin-top:14px}.fake-timeline i{height:42px;flex:1;border-radius:8px;background:linear-gradient(90deg,rgba(155,92,255,.55),rgba(33,212,253,.35));border:1px solid rgba(255,255,255,.15)}.fake-timeline i:nth-child(2){flex:1.5;background:linear-gradient(90deg,rgba(33,212,253,.4),rgba(155,92,255,.45))}@keyframes float{50%{transform:translateY(-22px) scale(1.05)}}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:35px;max-width:600px}.stat{padding:17px;border:1px solid var(--line);border-radius:16px;background:rgba(255,255,255,.035)}.stat strong{font-size:1.35rem;display:block}.stat span{font-size:.82rem;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:linear-gradient(145deg,rgba(255,255,255,.075),rgba(255,255,255,.025));border:1px solid var(--line);border-radius:var(--radius);padding:25px;transition:.25s;box-shadow:0 15px 45px rgba(0,0,0,.12)}.card:hover{transform:translateY(-6px);border-color:rgba(33,212,253,.45)}.iconbox{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:rgba(155,92,255,.15);font-size:1.35rem;margin-bottom:18px}.card h3{margin:0 0 9px;font-size:1.22rem}.card p{color:var(--muted);line-height:1.65;margin:0}.portfolio-toolbar{display:flex;justify-content:center;gap:9px;flex-wrap:wrap;margin-bottom:25px}.filter{border:1px solid var(--line);background:rgba(255,255,255,.04);color:#ddd;padding:9px 16px;border-radius:99px}.filter.active{background:var(--grad);border-color:transparent;color:white}.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.portfolio-item{overflow:hidden;border:1px solid var(--line);border-radius:18px;background:var(--panel)}.portfolio-thumb{height:190px;background:linear-gradient(135deg,#30204e,#10283a);display:grid;place-items:center;font-size:2.5rem;position:relative}.portfolio-thumb img,.portfolio-thumb video{width:100%;height:100%;object-fit:cover}.portfolio-info{padding:16px}.portfolio-info small{color:var(--blue)}.portfolio-info h3{margin:7px 0}.compare{display:grid;grid-template-columns:1fr 1fr;gap:15px}.compare-box{border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--panel)}.compare-box img{width:100%;height:220px;object-fit:cover;display:block}.compare-box div{padding:12px 16px;font-weight:700}.pricing-card{position:relative}.pricing-card.featured{border-color:rgba(33,212,253,.55);box-shadow:0 0 45px rgba(33,212,253,.09)}.price{font-size:2.3rem;font-weight:900;margin:18px 0}.price small{font-size:.9rem;color:var(--muted);font-weight:400}.features{list-style:none;padding:0;margin:20px 0;color:#d5d1e2;line-height:2}.features li:before{content:"✓";color:var(--blue);margin-right:9px}.pricing-card .btn{width:100%}
+.editor-wrap{border:1px solid var(--line);border-radius:22px;overflow:hidden;background:#0d0c17;box-shadow:0 25px 70px rgba(0,0,0,.3)}.editor-top{display:flex;align-items:center;justify-content:space-between;padding:15px 18px;background:#151326;border-bottom:1px solid var(--line);gap:10px;flex-wrap:wrap}.editor-layout{display:grid;grid-template-columns:250px 1fr;min-height:420px}.editor-tools{padding:18px;border-right:1px solid var(--line);background:#11101d}.field{display:flex;flex-direction:column;gap:7px;margin-bottom:14px}.field label{font-size:.86rem;color:#c9c5d7}.field input,.field select,.field textarea,.input{width:100%;border:1px solid var(--line);background:#0a0912;color:white;border-radius:11px;padding:11px 12px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--blue)}input[type=range]{padding:0;accent-color:var(--purple)}.preview-area{padding:20px;display:flex;flex-direction:column;align-items:center;justify-content:center;min-width:0}.preview-stage{width:min(100%,680px);min-height:260px;background:#050509;border:1px dashed #39354b;border-radius:15px;display:grid;place-items:center;overflow:hidden}.preview-stage video{max-width:100%;max-height:360px}.timeline-box{width:100%;margin-top:17px;padding:15px;background:#171525;border-radius:13px}.timeline-label{display:flex;justify-content:space-between;color:var(--muted);font-size:.8rem;margin-bottom:9px}.timeline-box input{width:100%}.editor-actions{display:flex;gap:9px;flex-wrap:wrap;margin-top:14px}.notice{font-size:.82rem;color:#aaa5bd;line-height:1.55;margin-top:10px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}.form-grid .full{grid-column:1/-1}.contact-layout{display:grid;grid-template-columns:.8fr 1.2fr;gap:25px;align-items:start}.order-form{padding:25px;border:1px solid var(--line);border-radius:22px;background:rgba(255,255,255,.04)}.order-form textarea{min-height:110px;resize:vertical}.owner-card{padding:28px;border-radius:22px;background:linear-gradient(145deg,rgba(155,92,255,.18),rgba(33,212,253,.07));border:1px solid var(--line)}.owner-avatar{width:70px;height:70px;border-radius:22px;display:grid;place-items:center;background:var(--grad);font-size:1.6rem;font-weight:900;margin-bottom:16px}.faq details{border-bottom:1px solid var(--line);padding:17px 0}.faq summary{cursor:pointer;font-weight:700}.faq details p{color:var(--muted);line-height:1.65}.footer{padding:35px 0;border-top:1px solid var(--line);color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:40;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:#052b14;font-size:1.65rem;box-shadow:0 10px 30px rgba(37,211,102,.3)}
+/* Admin modal and panel */
+.modal{position:fixed;inset:0;z-index:100;background:rgba(0,0,0,.75);display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal-box{width:min(440px,100%);background:#151326;border:1px solid var(--line);border-radius:20px;padding:25px}.modal-box h2{margin-top:0}.admin-panel{display:none;position:fixed;inset:0;z-index:110;background:#090812;overflow:auto;padding:22px}.admin-panel.open{display:block}.admin-head{display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:22px}.admin-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.admin-stat{padding:18px;background:#17152a;border:1px solid var(--line);border-radius:15px}.admin-stat strong{display:block;font-size:1.7rem}.admin-content{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}.admin-box{background:#131121;border:1px solid var(--line);border-radius:17px;padding:18px;min-width:0}.admin-box h3{margin-top:0}.order-row{padding:12px 0;border-bottom:1px solid var(--line);font-size:.9rem}.order-row:last-child{border:0}.hidden{display:none!important}.toast{position:fixed;left:50%;bottom:25px;transform:translateX(-50%);z-index:200;background:#222039;border:1px solid var(--line);padding:12px 18px;border-radius:99px;display:none;max-width:90%;text-align:center}
+@media(max-width:900px){.hero{grid-template-columns:1fr;padding-top:130px}.hero-visual{min-height:340px}.grid,.portfolio-grid{grid-template-columns:repeat(2,1fr)}.contact-layout{grid-template-columns:1fr}.admin-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:700px){nav{height:68px}.menu-btn{display:block}.navlinks{display:none;position:absolute;top:68px;left:0;right:0;background:#100e1d;padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:18px}.navlinks.open{display:flex}.nav-actions .btn{display:none}.hero{min-height:auto;padding:125px 0 65px;gap:15px}.hero h1{font-size:clamp(2.6rem,12vw,4rem)}.hero-visual{min-height:300px}.editor-card{transform:none}.fake-window{height:200px}.section{padding:68px 0}.grid,.portfolio-grid{grid-template-columns:1fr}.section-head{margin-bottom:30px}.editor-layout{grid-template-columns:1fr}.editor-tools{border-right:0;border-bottom:1px solid var(--line)}.preview-stage{min-height:190px}.form-grid{grid-template-columns:1fr}.form-grid .full{grid-column:auto}.compare{grid-template-columns:1fr}.compare-box img{height:190px}.admin-content{grid-template-columns:1fr}.admin-panel{padding:14px}.stats{gap:8px}.stat{padding:12px}.stat strong{font-size:1.1rem}.whatsapp-float{width:53px;height:53px;right:15px;bottom:15px}}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <nav class="container">
+    <a class="brand" href="#home">VIDEO EDITING <span>STUDIO</span></a>
+    <div class="navlinks" id="navlinks">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#editor">Online Editor</a><a href="#pricing">Pricing</a><a href="#order">Order</a>
+    </div>
+    <div class="nav-actions"><a class="btn btn-primary btn-small" href="#order">Get a Quote</a><button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button></div>
+  </nav>
+</header>
+
+<main>
+<section class="hero container" id="home">
+  <div class="hero-copy">
+    <span class="eyebrow">✦ CREATIVE VIDEO PRODUCTION</span>
+    <h1>TURN YOUR VIDEOS INTO <span class="gradient">VISUAL MASTERPIECES</span></h1>
+    <p>Professional video editing for creators, brands and businesses. Get scroll-stopping reels, polished YouTube videos and cinematic stories — crafted by Vinod Editor.</p>
+    <div class="hero-buttons"><a class="btn btn-primary" href="#services">Explore Services ↗</a><a class="btn btn-ghost" href="#editor">Try Free Video Trim</a></div>
+    <div class="stats"><div class="stat"><strong>Reels</strong><span>Social-first edits</span></div><div class="stat"><strong>YouTube</strong><span>Creator videos</span></div><div class="stat"><strong>Custom</strong><span>Made for your brand</span></div></div>
+  </div>
+  <div class="hero-visual"><div class="orb"></div><div class="editor-card"><div class="fake-window"><div class="playmark">▶</div></div><div class="fake-timeline"><i></i><i></i><i></i></div><p style="margin:15px 3px 2px;color:#d8d3e8">Creative editing. Clean storytelling. Professional finish.</p></div></div>
+</section>
+
+<section class="section" id="services"><div class="container">
+  <div class="section-head"><span class="eyebrow">WHAT WE DO</span><h2>Premium <span class="gradient">Editing Services</span></h2><p>Choose the right editing service for your content. Every project is scoped clearly before work begins.</p></div>
+  <div class="grid">
+    <article class="card"><div class="iconbox">📱</div><h3>Instagram Reels</h3><p>Vertical edits, captions, pacing, transitions and sound sync for social media.</p></article>
+    <article class="card"><div class="iconbox">▶️</div><h3>YouTube Videos</h3><p>Clean cuts, engaging structure, B-roll placement, audio cleanup and titles.</p></article>
+    <article class="card"><div class="iconbox">🎬</div><h3>Cinematic Editing</h3><p>Story-led cuts, color treatment and thoughtful transitions for a polished look.</p></article>
+    <article class="card"><div class="iconbox">🛍️</div><h3>Product & Promo Ads</h3><p>Product showcases and promotional edits designed to highlight key benefits.</p></article>
+    <article class="card"><div class="iconbox">💍</div><h3>Wedding Highlights</h3><p>Memorable highlight films with music-led storytelling and elegant pacing.</p></article>
+    <article class="card"><div class="iconbox">✨</div><h3>Motion & Captions</h3><p>Animated titles, subtitles, simple motion graphics and visual enhancements.</p></article>
+  </div>
+</div></section>
+
+<section class="section" id="portfolio" style="background:rgba(0,0,0,.18)"><div class="container">
+  <div class="section-head"><span class="eyebrow">SELECTED WORK</span><h2>Our <span class="gradient">Portfolio</span></h2><p>Replace these demo cards with your own completed edits. Only publish work you own or have permission to show.</p></div>
+  <div class="portfolio-toolbar"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="reels">Reels</button><button class="filter" data-filter="youtube">YouTube</button><button class="filter" data-filter="cinematic">Cinematic</button><button class="filter" data-filter="ads">Ads</button></div>
+  <div class="portfolio-grid" id="portfolioGrid">
+    <article class="portfolio-item" data-category="reels"><div class="portfolio-thumb">📱</div><div class="portfolio-info"><small>REELS EDITING</small><h3>Social Media Reel</h3><p class="muted">Demo portfolio item — replace with your video.</p></div></article>
+    <article class="portfolio-item" data-category="youtube"><div class="portfolio-thumb">▶️</div><div class="portfolio-info"><small>YOUTUBE</small><h3>Creator Video</h3><p class="muted">Demo portfolio item — replace with your video.</p></div></article>
+    <article class="portfolio-item" data-category="cinematic"><div class="portfolio-thumb">🎞️</div><div class="portfolio-info"><small>CINEMATIC</small><h3>Cinematic Story</h3><p class="muted">Demo portfolio item — replace with your video.</p></div></article>
+  </div>
+  <div class="section-head" style="margin:55px auto 25px"><h2>Before <span class="gradient">/ After</span></h2><p>Show visitors the improvement your editing brings. Replace the sample panels with authorized before-and-after images.</p></div>
+  <div class="compare"><div class="compare-box"><img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=900&q=80" alt="Example original footage"><div>BEFORE · Original footage example</div></div><div class="compare-box"><img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80" alt="Example edited look"><div>AFTER · Edited look example</div></div></div>
+</div></section>
+
+<section class="section" id="editor"><div class="container">
+  <div class="section-head"><span class="eyebrow">CREATE IN YOUR BROWSER</span><h2>Free Online <span class="gradient">Video Trimmer</span></h2><p>Choose a video, set the start and end points, preview the selection and export a trimmed WebM clip. Processing happens in your browser.</p></div>
+  <div class="editor-wrap">
+    <div class="editor-top"><strong>✂ VIDEO TRIM STUDIO</strong><span class="muted" id="videoStatus">No video selected</span></div>
+    <div class="editor-layout">
+      <aside class="editor-tools">
+        <div class="field"><label for="videoFile">Upload video</label><input id="videoFile" type="file" accept="video/*"></div>
+        <div class="field"><label for="trimStart">Start time (seconds)</label><input id="trimStart" type="number" min="0" step=".1" value="0"></div>
+        <div class="field"><label for="trimEnd">End time (seconds)</label><input id="trimEnd" type="number" min="0" step=".1" value="0"></div>
+        <button class="btn btn-ghost btn-small" id="useCurrent">Use current time as start</button>
+        <p class="notice">Note: This lightweight browser tool exports WebM using MediaRecorder where supported. It is a basic trim tool, not a full multi-track editor. Keep source clips short for best mobile performance.</p>
+      </aside>
+      <div class="preview-area">
+        <div class="preview-stage" id="previewStage"><span class="muted">Your video preview will appear here</span><video id="videoPreview" controls playsinline class="hidden"></video></div>
+        <div class="timeline-box"><div class="timeline-label"><span>Selected trim range</span><span id="rangeLabel">0.0s – 0.0s</span></div><input id="rangeStart" type="range" min="0" max="100" value="0" aria-label="Trim start position"><input id="rangeEnd" type="range" min="0" max="100" value="100" aria-label="Trim end position" style="margin-top:12px"></div>
+        <div class="editor-actions"><button class="btn btn-primary" id="exportTrim" disabled>Export Trimmed Video</button><button class="btn btn-ghost" id="resetTrim">Reset</button></div>
+        <p class="notice" id="exportStatus" role="status">Upload a video to begin.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<section class="section" id="pricing"><div class="container">
+  <div class="section-head"><span class="eyebrow">CLEAR & SIMPLE</span><h2>Choose Your <span class="gradient">Plan</span></h2><p>Starting prices are indicative. Final quotes depend on footage length, complexity and delivery deadline.</p></div>
+  <div class="grid">
+    <article class="card pricing-card"><h3>Basic</h3><div class="price">₹999 <small>/ starting</small></div><ul class="features"><li>Short-form video edit</li><li>Basic cuts & transitions</li><li>Basic color correction</li><li>1 revision</li></ul><a class="btn btn-ghost" href="#order" data-plan="Basic Plan">Choose Basic</a></article>
+    <article class="card pricing-card featured"><span class="eyebrow">POPULAR</span><h3 style="margin-top:15px">Standard</h3><div class="price">₹2,499 <small>/ starting</small></div><ul class="features"><li>Professional editing</li><li>Advanced transitions</li><li>Color grading & effects</li><li>2 revisions</li></ul><a class="btn btn-primary" href="#order" data-plan="Standard Plan">Choose Standard</a></article>
+    <article class="card pricing-card"><h3>Premium</h3><div class="price">₹4,999 <small>/ starting</small></div><ul class="features"><li>Premium cinematic edit</li><li>Motion graphics</li><li>Advanced color treatment</li><li>3 revisions</li></ul><a class="btn btn-ghost" href="#order" data-plan="Premium Plan">Choose Premium</a></article>
+  </div>
+</div></section>
+
+<section class="section" id="order" style="background:rgba(0,0,0,.2)"><div class="container">
+  <div class="section-head"><span class="eyebrow">LET'S WORK TOGETHER</span><h2>Place Your <span class="gradient">Order</span></h2><p>Share your project details. WhatsApp will open with a pre-filled message for Vinod Editor.</p></div>
+  <div class="contact-layout">
+    <div class="owner-card"><div class="owner-avatar">VE</div><span class="eyebrow">YOUR VIDEO EDITING PARTNER</span><h2 style="font-size:2rem;margin:15px 0 5px">Vinod Editor</h2><p class="muted">Founder · Video Editing Studio</p><p style="line-height:1.7;color:#d5d1e2">Need a custom edit? Send your brief and a Google Drive link to your footage. Please make sure link permissions allow viewing.</p><a class="btn btn-primary" href="https://wa.me/919303557322" target="_blank" rel="noopener">WhatsApp: +91 93035 57322</a><p class="notice">Business contact number provided by the website owner.</p></div>
+    <form class="order-form" id="orderForm">
+      <div class="form-grid">
+        <div class="field"><label for="customerName">Full name *</label><input id="customerName" required placeholder="Your name"></div>
+        <div class="field"><label for="customerPhone">Your WhatsApp number *</label><input id="customerPhone" type="tel" required placeholder="Your number"></div>
+        <div class="field"><label for="customerEmail">Email (optional)</label><input id="customerEmail" type="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="serviceType">Editing service *</label><select id="serviceType" required><option value="">Select service</option><option>Instagram Reels</option><option>YouTube Video</option><option>YouTube Shorts</option><option>Cinematic Video</option><option>Product / Promo Ad</option><option>Wedding Highlights</option><option>Other</option></select></div>
+        <div class="field"><label for="planSelect">Plan *</label><select id="planSelect" required><option value="">Select plan</option><option>Basic Plan – ₹999 starting</option><option>Standard Plan – ₹2,499 starting</option><option>Premium Plan – ₹4,999 starting</option><option>Custom Quote</option></select></div>
+        <div class="field"><label for="deadline">Required delivery date</label><input id="deadline" type="date"></div>
+        <div class="field full"><label for="driveLink">Footage Google Drive link (optional)</label><input id="driveLink" type="url" placeholder="https://drive.google.com/..."></div>
+        <div class="field full"><label for="brief">Project instructions *</label><textarea id="brief" required placeholder="Video length, style reference, captions, music, deadline and other details"></textarea></div>
+        <div class="full"><button class="btn btn-primary" type="submit" style="width:100%">Send Order on WhatsApp ↗</button></div>
+      </div>
+      <p class="notice">This form opens WhatsApp with your details. It does not save orders to a server or upload video files. Send large footage through a cloud link.</p>
+    </form>
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-head"><span class="eyebrow">QUESTIONS</span><h2>Frequently Asked <span class="gradient">Questions</span></h2></div>
+  <div class="faq">
+    <details><summary>How do I place an editing order?</summary><p>Complete the order form and tap Send Order on WhatsApp. Review the message and send it to Vinod Editor.</p></details>
+    <details><summary>Can I upload my footage here?</summary><p>The online tool supports local video upload for trimming in your browser. For a paid editing project, share a Google Drive link through the order form.</p></details>
+    <details><summary>Which file does the online trimmer export?</summary><p>It exports WebM when your browser supports MediaRecorder. Browser support and available codecs can vary by device.</p></details>
+    <details><summary>Are the listed prices final?</summary><p>They are starting prices. A final quote depends on video length, editing complexity and deadline.</p></details>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container footer-inner"><div><a class="brand" href="#home">VIDEO EDITING <span>STUDIO</span></a><p>© <span id="year"></span> Video Editing Studio · Vinod Editor</p></div><div><a href="#services">Services</a>　<a href="#portfolio">Portfolio</a>　<a href="#order">Contact</a>　<button class="btn btn-ghost btn-small" id="adminOpen">Admin</button></div></div></footer>
+<a class="whatsapp-float" href="https://wa.me/919303557322?text=Hi%20Vinod%20Editor%2C%20I%20have%20an%20editing%20inquiry." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">☏</a>
+
+<div class="modal" id="adminModal"><div class="modal-box"><button class="btn btn-ghost btn-small" id="adminClose" style="float:right">Close</button><h2>Admin Login</h2><p class="muted">Local demo dashboard. Set a password before using this on a private device.</p><div class="field"><label for="adminPassword">Admin password</label><input id="adminPassword" type="password" placeholder="Enter demo password"></div><button class="btn btn-primary" id="adminLogin" style="width:100%">Open Dashboard</button><p class="notice">Demo password: <strong>vinod123</strong>. This front-end demo is not secure for public production use.</p></div></div>
+
+<div class="admin-panel" id="adminPanel">
+  <div class="admin-head"><div><span class="eyebrow">OWNER AREA</span><h1 style="margin:10px 0 0">Welcome, Vinod Editor</h1><p class="muted">Local browser demo dashboard</p></div><div><button class="btn btn-ghost" id="exportOrders">Export Orders JSON</button> <button class="btn btn-danger" id="adminLogout">Close Dashboard</button></div></div>
+  <div class="admin-grid"><div class="admin-stat"><span class="muted">Saved Orders</span><strong id="totalOrders">0</strong></div><div class="admin-stat"><span class="muted">Pending</span><strong id="pendingOrders">0</strong></div><div class="admin-stat"><span class="muted">Portfolio Items</span><strong id="totalPortfolio">3</strong></div><div class="admin-stat"><span class="muted">Business WhatsApp</span><strong style="font-size:1rem">9303557322</strong></div></div>
+  <div class="admin-content">
+    <div class="admin-box"><h3>Recent Orders (this browser only)</h3><div id="adminOrderList" class="muted">No locally saved orders yet. WhatsApp enquiries are not automatically stored.</div></div>
+    <div class="admin-box"><h3>Add Portfolio Video</h3><div class="field"><label>Project title</label><input id="portfolioTitle" placeholder="e.g. Fitness Reel Edit"></div><div class="field"><label>Category</label><select id="portfolioCategory"><option value="reels">Reels</option><option value="youtube">YouTube</option><option value="cinematic">Cinematic</option><option value="ads">Ads</option></select></div><div class="field"><label>Video file (optional)</label><input type="file" id="portfolioVideo" accept="video/*"></div><button class="btn btn-primary" id="addPortfolio">Add to Portfolio</button><p class="notice">Portfolio additions are stored in this browser only and may be lost if browser data is cleared.</p></div>
+  </div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+const BUSINESS_PHONE = "919303557322";
+const $ = id => document.getElementById(id);
+$("year").textContent = new Date().getFullYear();
+function toast(message){const el=$("toast");el.textContent=message;el.style.display="block";clearTimeout(window.toastTimer);window.toastTimer=setTimeout(()=>el.style.display="none",3200)}
+// Mobile navigation
+$("menuBtn").addEventListener("click",()=>{$("navlinks").classList.toggle("open")});
+$("navlinks").querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>$("navlinks").classList.remove("open")));
+// Portfolio category filter
+document.querySelectorAll(".filter").forEach(btn=>btn.addEventListener("click",()=>{
+  document.querySelectorAll(".filter").forEach(b=>b.classList.remove("active"));btn.classList.add("active");
+  document.querySelectorAll("#portfolioGrid .portfolio-item").forEach(item=>item.classList.toggle("hidden",btn.dataset.filter!=="all"&&item.dataset.category!==btn.dataset.filter));
+}));
+// Select pricing plan in order form
+document.querySelectorAll("[data-plan]").forEach(btn=>btn.addEventListener("click",()=>{const map={"Basic Plan":"Basic Plan – ₹999 starting","Standard Plan":"Standard Plan – ₹2,499 starting","Premium Plan":"Premium Plan – ₹4,999 starting"};$("planSelect").value=map[btn.dataset.plan]||"";}));
+// WhatsApp order form
+$("orderForm").addEventListener("submit",e=>{
+  e.preventDefault();
+  const data={name:$("customerName").value.trim(),phone:$("customerPhone").value.trim(),email:$("customerEmail").value.trim(),service:$("serviceType").value,plan:$("planSelect").value,deadline:$("deadline").value||"Not specified",drive:$("driveLink").value.trim()||"Not provided",brief:$("brief").value.trim()};
+  if(!data.name||!data.phone||!data.service||!data.plan||!data.brief){toast("Please complete all required fields.");return;}
+  const message=`NEW VIDEO EDITING ORDER\n\nName: ${data.name}\nCustomer WhatsApp: ${data.phone}\nEmail: ${data.email||"Not provided"}\nService: ${data.service}\nPlan: ${data.plan}\nDeadline: ${data.deadline}\nFootage link: ${data.drive}\nInstructions: ${data.brief}\n\nSent from Video Editing Studio website.`;
+  const url=`https://wa.me/${BUSINESS_PHONE}?text=${encodeURIComponent(message)}`;
+  window.open(url,"_blank","noopener");
+});
+// Browser video trimmer using MediaRecorder
+let sourceUrl=null, sourceFile=null, duration=0, exportUrl=null, recorder=null, chunks=[];
+const video=$("videoPreview");
+function setVideoStatus(t){$("videoStatus").textContent=t}
+function updateRange(){
+  const s=Math.max(0,Math.min(Number($("trimStart").value)||0,duration));
+  const e=Math.max(0,Math.min(Number($("trimEnd").value)||duration,duration));
+  $("rangeLabel").textContent=`${s.toFixed(1)}s – ${e.toFixed(1)}s`;
+}
+$("videoFile").addEventListener("change",e=>{
+  const file=e.target.files[0];if(!file)return;
+  if(!file.type.startsWith("video/")){toast("Please select a valid video file.");return;}
+  if(file.size>250*1024*1024){toast("For this browser demo, choose a video smaller than 250 MB.");return;}
+  if(sourceUrl)URL.revokeObjectURL(sourceUrl);sourceFile=file;sourceUrl=URL.createObjectURL(file);
+  video.src=sourceUrl;video.classList.remove("hidden");$("previewStage").querySelector("span")?.classList.add("hidden");
+  video.onloadedmetadata=()=>{
+    duration=video.duration;$("trimStart").value="0";$("trimEnd").value=duration.toFixed(1);
+    ["rangeStart","rangeEnd"].forEach(id=>$(id).max=1000);
+    $("rangeStart").value=0;$("rangeEnd").value=1000;
+    $("trimStart").max=duration;$("trimEnd").max=duration;
+    $("exportTrim").disabled=false;setVideoStatus(`${file.name} · ${duration.toFixed(1)} sec`);updateRange();$("exportStatus").textContent="Video ready. Set start and end points, then export.";
+  };
+});
+$("trimStart").addEventListener("input",()=>{let v=Math.max(0,Math.min(duration,Number($("trimStart").value)||0));$("rangeStart").value=duration?v/duration*1000:0;updateRange()});
+$("trimEnd").addEventListener("input",()=>{let v=Math.max(0,Math.min(duration,Number($("trimEnd").value)||duration));$("rangeEnd").value=duration?v/duration*1000:1000;updateRange()});
+$("rangeStart").addEventListener("input",()=>{$("trimStart").value=(Number($("rangeStart").value)/1000*duration).toFixed(1);updateRange()});
+$("rangeEnd").addEventListener("input",()=>{$("trimEnd").value=(Number($("rangeEnd").value)/1000*duration).toFixed(1);updateRange()});
+$("useCurrent").addEventListener("click",()=>{if(!duration)return; $("trimStart").value=video.currentTime.toFixed(1);$("rangeStart").value=video.currentTime/duration*1000;updateRange()});
+$("resetTrim").addEventListener("click",()=>{if(!duration)return;$("trimStart").value=0;$("trimEnd").value=duration.toFixed(1);$("rangeStart").value=0;$("rangeEnd").value=1000;video.currentTime=0;updateRange()});
+$("exportTrim").addEventListener("click",async()=>{
+  if(!sourceFile||!duration){toast("Upload a video first.");return;}
+  const start=Math.max(0,Number($("trimStart").value)||0),end=Math.min(duration,Number($("trimEnd").value)||duration);
+  if(end<=start||end-start<0.2){toast("End time must be after start time.");return;}
+  if(!HTMLMediaElement.prototype.captureStream&&!HTMLMediaElement.prototype.mozCaptureStream){toast("Your browser does not support browser video recording. Try a recent Chrome browser.");return;}
+  const capture=video.captureStream?video.captureStream():video.mozCaptureStream();
+  const mimeCandidates=["video/webm;codecs=vp9,opus","video/webm;codecs=vp8,opus","video/webm"];
+  const mime=mimeCandidates.find(t=>MediaRecorder.isTypeSupported(t))||"";
+  try{
+    chunks=[];recorder=new MediaRecorder(capture,mime?{mimeType:mime}:undefined);
+    recorder.ondataavailable=e=>{if(e.data&&e.data.size)chunks.push(e.data)};
+    recorder.onerror=()=>{$("exportStatus").textContent="Export failed. Try a shorter clip or another browser."; $("exportTrim").disabled=false};
+    recorder.onstop=()=>{
+      const blob=new Blob(chunks,{type:recorder.mimeType||"video/webm"});
+      if(exportUrl)URL.revokeObjectURL(exportUrl);exportUrl=URL.createObjectURL(blob);
+      const a=document.createElement("a");a.href=exportUrl;a.download="vinod-editor-trimmed.webm";document.body.appendChild(a);a.click();a.remove();
+      $("exportStatus").textContent=`Export complete · ${(blob.size/1024/1024).toFixed(1)} MB · Download started.`;
+      $("exportTrim").disabled=false;capture.getTracks().forEach(t=>t.stop());
+    };
+    $("exportTrim").disabled=true;$("exportStatus").textContent="Recording selected range… keep this tab open.";
+    video.pause();video.currentTime=start;
+    await new Promise(resolve=>{const fn=()=>{video.removeEventListener("seeked",fn);resolve()};video.addEventListener("seeked",fn);});
+    recorder.start(250);
+    await video.play();
+    const stopAt=()=>{if(video.currentTime>=end){video.pause();video.removeEventListener("timeupdate",stopAt);if(recorder&&recorder.state!=="inactive")recorder.stop()}};
+    video.addEventListener("timeupdate",stopAt);
+    video.addEventListener("ended",()=>{if(recorder&&recorder.state!=="inactive")recorder.stop()},{once:true});
+  }catch(err){$("exportTrim").disabled=false;$("exportStatus").textContent="Could not export this video in the current browser. Try Chrome and a smaller file.";console.error(err)}
+});
+// Admin demo: local-only. Never use this client-side password gate for a public production site.
+const STORAGE_KEY="ves_demo_orders_v1", PORT_KEY="ves_demo_portfolio_v1";
+function getOrders(){try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||"[]")}catch{return[]}}
+function renderAdmin(){
+  const orders=getOrders();$("totalOrders").textContent=orders.length;$("pendingOrders").textContent=orders.length;
+  let portfolio=3;try{portfolio+=JSON.parse(localStorage.getItem(PORT_KEY)||"[]").length}catch{}$("totalPortfolio").textContent=portfolio;
+  $("adminOrderList").innerHTML=orders.length?orders.slice().reverse().map(o=>`<div class="order-row"><strong>${escapeHtml(o.name)}</strong> · ${escapeHtml(o.service)}<br><span class="muted">${escapeHtml(o.plan)} · ${escapeHtml(o.date)}</span></div>`).join(""):"No locally saved orders yet. WhatsApp enquiries are not automatically stored.";
+}
+function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+$("adminOpen").addEventListener("click",()=>$("adminModal").classList.add("open"));
+$("adminClose").addEventListener("click",()=>$("adminModal").classList.remove("open"));
+$("adminLogin").addEventListener("click",()=>{if($("adminPassword").value==="vinod123"){$("adminModal").classList.remove("open");$("adminPanel").classList.add("open");renderAdmin()}else toast("Incorrect demo password.")});
+$("adminLogout").addEventListener("click",()=>$("adminPanel").classList.remove("open"));
+$("exportOrders").addEventListener("click",()=>{const blob=new Blob([JSON.stringify(getOrders(),null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="video-editing-studio-orders.json";a.click();URL.revokeObjectURL(url)});
+$("addPortfolio").addEventListener("click",()=>{
+  const title=$("portfolioTitle").value.trim(),category=$("portfolioCategory").value,file=$("portfolioVideo").files[0];
+  if(!title){toast("Enter a project title.");return}
+  if(file&&file.size>30*1024*1024){toast("Choose a video under 30 MB for this local demo.");return}
+  const add={title,category,fileName:file?file.name:"No video attached",date:new Date().toISOString()};
+  let items=[];try{items=JSON.parse(localStorage.getItem(PORT_KEY)||"[]")}catch{}
+  items.push(add);localStorage.setItem(PORT_KEY,JSON.stringify(items));$("portfolioTitle").value="";$("portfolioVideo").value="";renderAdmin();toast("Portfolio item saved in this browser. Add actual hosting for public display.");
+});
+</script>
+</body>
+</html>
